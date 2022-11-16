@@ -6,7 +6,7 @@ class EmailService {
     try {
       sgMail.setApiKey(process.env.SENDGRID);      
       const msg = {
-        to: 'madeko@gmail.com', // Change to your recipient
+        to: 'cryptozuelan@gmail.com', // Change to your recipient
         from: 'olivereldd@gmail.com', // Change to your verified sender
         subject: 'Sending with SendGrid is Fun',
         text: 'and easy to do anywhere, even with Node.js',
